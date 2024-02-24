@@ -1,0 +1,28 @@
+/* index.css */
+
+/* Remove margin and padding from the body */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  /* Ensure minimum width of the viewport */
+  min-height: 100vh;
+  /* Ensure minimum height of the viewport */
+}
+
+/* Style the message circle */
+.message-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
